@@ -3,7 +3,11 @@
     "manifest_version": 2,
     "name": "YNAB Category Viewer",
     "description": "Allows users to view category amounts from the browser",
-    "homepage_url": "https://github.com/sadiejay/ynab-category-viewer"
+    "homepage_url": "https://github.com/sadiejay/ynab-category-viewer",
+    "icons": {
+        "48": "icons/check-att-48.png"
+    }
+
 
 
 }
