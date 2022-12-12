@@ -12,11 +12,25 @@
     "content_scripts": [
         {
         "matches": ["*://*.mozilla.org/*"],
-        "js": ["viewer.js"]
+        "js": ["content_scripts/content.js"]
         }
-    ]
+    ],
+
+    "permissions": [
+        "activeTab"
+    ],
+
+  "browser_action": {
+    "default_icon": "icons/check-att-48.png",
+    "default_title": "YNAB Category Viewer",
+    "default_popup": "popup/view_cat.html"
+  },
 
 
-
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ]
 
 }
